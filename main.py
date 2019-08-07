@@ -18,8 +18,9 @@ class SearchFormHandler(webapp2.RequestHandler):
 class RecipeDisplayHandler(webapp2.RequestHandler):
     def post(self):
         query = self.request.get('query')
+        ingreds = self.request.get('ingreds')
         base_url = 'http://www.recipepuppy.com/api/?'
-        params = { 'q': query }
+        params = { 'i' : ingreds, 'q': query }
         response = urlfetch.fetch(base_url + urlencode(params)).content
         results = json.loads(response)
 

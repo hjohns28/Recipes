@@ -17,6 +17,12 @@
   color: white;
 }
 
+#whatingreds {
+  background-color: lightblue;
+  width: 160px;
+  color: white;
+}
+
 #main {
   display: grid;
   grid-template-columns: 1fr;
@@ -56,4 +62,6 @@
 #title {
   margin-bottom: 0;
   font-size: 22px;
+  color: black;
+  font-style: normal;
 }
