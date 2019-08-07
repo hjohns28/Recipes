@@ -27,9 +27,9 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  background-color: lightyellow;
   align-items: center;
   margin: auto;
+  background-image: radial-gradient(olive, yellow);
 }
 
 #thumbnail {
@@ -51,6 +51,8 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   width: 900px;
+  background-color: white;
+  margin: 10px;
 }
 
 #ingredients {
