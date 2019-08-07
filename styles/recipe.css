@@ -1,0 +1,59 @@
+#formh1 {
+  display: flex;
+  background-color: orange;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  justify-content: center;
+}
+
+#formbody {
+  background-image: url(https://cms-assets.tutsplus.com/uploads/users/1604/posts/28720/image/Pizza-Pattern-Final-Result.jpg)
+}
+
+#whatcook {
+  background-color: lightblue;
+  width: 180px;
+  color: white;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  background-color: lightyellow;
+  align-items: center;
+  margin: auto;
+}
+
+#thumbnail {
+  grid-column: 1;
+  margin: auto;
+}
+
+
+#header {
+  grid-column: 2;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: lightblue;
+  width: 300px;
+  color: white;
+}
+
+#mini {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 900px;
+}
+
+#ingredients {
+  margin-top: 0;
+  overflow-wrap: normal;
+  font-style: italic;
+}
+
+#title {
+  margin-bottom: 0;
+  font-size: 22px;
+}
