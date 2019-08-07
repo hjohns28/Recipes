@@ -40,18 +40,19 @@
 
 #header {
   grid-column: 2;
-  font-size: 32px;
+  font-size: 35px;
   font-weight: bold;
-  background-color: lightblue;
-  width: 300px;
+  background-color: steelblue;
+  width: 330px;
   color: white;
+  text-decoration: underline;
 }
 
 #mini {
   display: grid;
   grid-template-rows: 1fr 1fr;
   width: 900px;
-  background-color: white;
+  background-color: lightblue;
   margin: 10px;
 }
 
@@ -66,4 +67,5 @@
   font-size: 22px;
   color: black;
   font-style: normal;
+  text-decoration: none;
 }
